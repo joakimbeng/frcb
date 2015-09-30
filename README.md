@@ -1,5 +1,7 @@
 # frcb
 
+![frcb logo](https://cdn.rawgit.com/joakimbeng/frcb/v0.1.2/media/frcb.png)
+
 [![NPM version][npm-image]][npm-url] [![js-xo-style][codestyle-image]][codestyle-url]
 
 > Fat Responsive Checkbox
