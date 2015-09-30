@@ -21,6 +21,8 @@ See a [demo of the component here](https://joakimbeng.github.io/frcb).
 
 ### Module usage
 
+**In your React app:**
+
 ```javascript
 import React from 'react';
 import FatResponsiveCheckbox from 'frcb';
@@ -30,6 +32,17 @@ class App extends React.Component {
 		return <FatResponsiveCheckbox>Check me</FatResponsiveCheckbox>;
 	}
 }
+```
+
+**In your Unistyle code:**
+
+```javascript
+import fatResponsiveCheckbox from 'frcb/style';
+
+export default [
+	fatResponsiveCheckbox,
+	// your other styles here...
+];
 ```
 
 ## API
