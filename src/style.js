@@ -1,5 +1,5 @@
 'use strict';
-import {size, alternateClass} from './vars';
+import {size, alternateClass, transitionTime} from './vars';
 
 exports.fatResponsiveCheckbox = {
 	'opacity': 0,
@@ -44,7 +44,7 @@ exports.fatResponsiveCheckbox = {
 		'::after': {
 			content: '"✔"',
 			cursor: 'pointer',
-			transition: 'color .5s, opacity .5s',
+			transition: `color ${transitionTime}, opacity ${transitionTime}`,
 			textShadow: prop([
 				vmin(0.3),
 				vmin(0.3),
@@ -70,9 +70,9 @@ exports.fatResponsiveCheckbox = {
 	},
 	[`&.${alternateClass}`]: {
 		'& + label': {
-			'transition': 'color .5s, text-decoration .5s',
+			'transition': `color ${transitionTime}, text-decoration ${transitionTime}`,
 			'::after': {
-				transition: 'opacity .5s'
+				transition: `opacity ${transitionTime}`
 			}
 		},
 		':checked + label': {
