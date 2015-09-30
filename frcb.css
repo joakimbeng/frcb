@@ -1,0 +1,65 @@
+._936d5ead, ._936d5ead + label::after {
+	opacity: 0;
+}
+._936d5ead, ._936d5ead + label::before, ._936d5ead + label::after {
+	position: absolute;
+	display: inline-block;
+}
+._936d5ead {
+	vertical-align: middle;
+	z-index: 100;
+}
+._936d5ead + label {
+	padding-left: 15vmin;
+	display: block;
+	position: relative;
+	line-height: 10vmin;
+	font-size: 5vmin;
+	overflow: hidden;
+}
+._936d5ead + label, ._936d5ead + label::before, ._936d5ead + label::after {
+	height: 10vmin;
+	cursor: pointer;
+}
+._936d5ead + label::before {
+	content: "";
+	top: 50%;
+	margin-top: -5vmin;
+	border: 0.75vmin solid #666;
+	border-radius: 1vmin;
+	box-shadow: inset 0.5vmin 0.5vmin 0.5vmin 0 rgba(153, 153, 153, 0.75);
+}
+._936d5ead + label::before, ._936d5ead + label::after {
+	width: 10vmin;
+	left: 0;
+}
+._936d5ead + label::after {
+	content: "✔";
+	transition: color .5s, opacity .5s;
+	text-shadow: 0.3vmin 0.3vmin 0.3vmin rgba(153, 153, 153, 0.75);
+	text-align: center;
+	top: 0;
+	z-index: 2;
+	font-size: 6.5vmin;
+}
+._936d5ead:checked + label::after {
+	opacity: 1;
+}
+._936d5ead.frcb-striked + label {
+	transition: color .5s, text-decoration .5s;
+}
+._936d5ead.frcb-striked + label::after {
+	transition: opacity .5s;
+}
+._936d5ead.frcb-striked:checked + label {
+	text-decoration: line-through;
+	color: #999;
+}
+._936d5ead.frcb-striked:checked + label::before {
+	border-color: #999;
+}
+._936d5ead:focus + label {
+	outline: rgba(33, 33, 33, .2) solid 5px;
+	outline: -moz-outline-color auto 5px;
+	outline: -webkit-focus-ring-color auto 5px;
+}
