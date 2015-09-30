@@ -1,15 +1,15 @@
-._936d5ead, ._936d5ead + label::after {
+._fa1f3c6b, ._fa1f3c6b + label::after {
 	opacity: 0;
 }
-._936d5ead, ._936d5ead + label::before, ._936d5ead + label::after {
+._fa1f3c6b, ._fa1f3c6b + label::before, ._fa1f3c6b + label::after {
 	position: absolute;
 	display: inline-block;
 }
-._936d5ead {
+._fa1f3c6b {
 	vertical-align: middle;
 	z-index: 100;
 }
-._936d5ead + label {
+._fa1f3c6b + label {
 	padding-left: 15vmin;
 	display: block;
 	position: relative;
@@ -17,11 +17,11 @@
 	font-size: 5vmin;
 	overflow: hidden;
 }
-._936d5ead + label, ._936d5ead + label::before, ._936d5ead + label::after {
+._fa1f3c6b + label, ._fa1f3c6b + label::before, ._fa1f3c6b + label::after {
 	height: 10vmin;
 	cursor: pointer;
 }
-._936d5ead + label::before {
+._fa1f3c6b + label::before {
 	content: "";
 	top: 50%;
 	margin-top: -5vmin;
@@ -29,36 +29,36 @@
 	border-radius: 1vmin;
 	box-shadow: inset 0.5vmin 0.5vmin 0.5vmin 0 rgba(153, 153, 153, 0.75);
 }
-._936d5ead + label::before, ._936d5ead + label::after {
+._fa1f3c6b + label::before, ._fa1f3c6b + label::after {
 	width: 10vmin;
 	left: 0;
 }
-._936d5ead + label::after {
+._fa1f3c6b + label::after {
 	content: "✔";
-	transition: color .5s, opacity .5s;
+	transition: color .3s, opacity .3s;
 	text-shadow: 0.3vmin 0.3vmin 0.3vmin rgba(153, 153, 153, 0.75);
 	text-align: center;
 	top: 0;
 	z-index: 2;
 	font-size: 6.5vmin;
 }
-._936d5ead:checked + label::after {
+._fa1f3c6b:checked + label::after {
 	opacity: 1;
 }
-._936d5ead.frcb-striked + label {
-	transition: color .5s, text-decoration .5s;
+._fa1f3c6b.frcb-striked + label {
+	transition: color .3s, text-decoration .3s;
 }
-._936d5ead.frcb-striked + label::after {
-	transition: opacity .5s;
+._fa1f3c6b.frcb-striked + label::after {
+	transition: opacity .3s;
 }
-._936d5ead.frcb-striked:checked + label {
+._fa1f3c6b.frcb-striked:checked + label {
 	text-decoration: line-through;
 	color: #999;
 }
-._936d5ead.frcb-striked:checked + label::before {
+._fa1f3c6b.frcb-striked:checked + label::before {
 	border-color: #999;
 }
-._936d5ead:focus + label {
+._fa1f3c6b:focus + label {
 	outline: rgba(33, 33, 33, .2) solid 5px;
 	outline: -moz-outline-color auto 5px;
 	outline: -webkit-focus-ring-color auto 5px;
