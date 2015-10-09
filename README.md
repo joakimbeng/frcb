@@ -2,7 +2,7 @@
 
 ![frcb logo](https://cdn.rawgit.com/joakimbeng/frcb/v0.1.2/media/frcb.png)
 
-[![NPM version][npm-image]][npm-url] [![js-xo-style][codestyle-image]][codestyle-url]
+[![Build status][travis-image]][travis-url] [![NPM version][npm-image]][npm-url] [![js-xo-style][codestyle-image]][codestyle-url]
 
 > Fat Responsive Checkbox
 
@@ -64,5 +64,7 @@ MIT © Joakim Carlstein
 
 [npm-url]: https://npmjs.org/package/frcb
 [npm-image]: https://badge.fury.io/js/frcb.svg
+[travis-url]: https://travis-ci.org/joakimbeng/frcb
+[travis-image]: https://travis-ci.org/joakimbeng/frcb.svg?branch=master
 [codestyle-url]: https://github.com/sindresorhus/xo
 [codestyle-image]: https://img.shields.io/badge/code%20style-xo-brightgreen.svg?style=flat
